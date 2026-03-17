@@ -1,0 +1,15 @@
+body{
+  padding: 25px;
+  justify-content: center;
+}
+.border {
+  justify-content: center;
+	background-color : "white";
+	border : 1px solid black;
+	padding : 12px;
+	box-shadow : 0 5px 0 2px grey;
+}
+.container{
+  display: grid;
+  place-items : center;
+}
