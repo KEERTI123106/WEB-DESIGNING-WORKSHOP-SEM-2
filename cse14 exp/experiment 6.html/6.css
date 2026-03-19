@@ -1,15 +1,18 @@
 body{
   padding: 25px;
+  display: flex;
   justify-content: center;
+  place-items: center;
+  min-height: 100vh;
 }
 .border {
   justify-content: center;
-	background-color : "white";
+  text-align: center;
+	background-color : white;
 	border : 1px solid black;
 	padding : 12px;
 	box-shadow : 0 5px 0 2px grey;
 }
 .container{
-  display: grid;
   place-items : center;
 }
