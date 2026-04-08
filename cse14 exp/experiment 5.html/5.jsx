@@ -48,7 +48,7 @@ function showHigh() {
   text += "<table><tr><th>Name</th><th>ID</th><th>Salary</th><th>Dept</th></tr>";
   for (let emp of list) {
     if (emp.sal >= 50000) {
-      text += `<tr><td>\( {emp.name}</td><td> \){emp.id}</td><td>\( {emp.sal}</td><td> \){emp.dept}</td></tr>`;
+      text += `<tr><td>$ {emp.name}</td><td> ${emp.id}</td><td>$ {emp.sal}</td><td> $ {emp.dept}</td></tr>`;
       found = true;
     }
   }
@@ -94,7 +94,7 @@ function showCount() {
 
   let text = "<h3>Count by Department</h3><table><tr><th>Department</th><th>Count</th></tr>";
   for (let d in count) {
-    text += `<tr><td>\( {d}</td><td> \){count[d]}</td></tr>`;
+    text += `<tr><td>$ {d}</td><td> ${count[d]}</td></tr>`;
   }
   text += "</table>";
 
