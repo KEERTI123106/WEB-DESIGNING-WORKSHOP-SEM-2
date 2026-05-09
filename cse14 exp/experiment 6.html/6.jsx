@@ -10,14 +10,14 @@ document.getElementById("chngHeading").addEventListener("click",function(){
 });
 
 document.getElementById("chngbgBtn").onclick = function(){
-  document.body.style.backgroundColor = "#"+ Math.floor(Math.random() * 16777215).toString(16);
+  document.body.style.backgroundColor = "#"+ Math.floor(Math.random()
+   * 16777215).toString(16);
 };
 
 document.getElementById("incFontBtn").addEventListener("click",function(){
   fontSize += 2;
   paragraph.style.fontSize = fontSize + "px";
 });
-
 document.getElementById("hideBtn").addEventListener("click",function(){
   if(paragraph.style.display === "none"){
     paragraph.style.display = "block";
@@ -26,7 +26,6 @@ document.getElementById("hideBtn").addEventListener("click",function(){
     paragraph.style.display = "none";
   }
 });
-
 document.getElementById("resetBtn").addEventListener("click",function(){
   heading.innerHTML = "WELCOME TO JAVASCRIPT LAB" ;
   paragraph.style.display = "block" ; 

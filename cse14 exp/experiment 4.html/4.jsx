@@ -28,7 +28,7 @@ function calcResult(){
 	}
 	
 	document.getElementById("resultS").innerHTML =
-	  "TOTAL :" + total + '<br>' +
+	  "TOTAL :" + total.toFixed(2) + '<br>' +
 	  "AVERAGE :" + average.toFixed(2) + '<br>' +
 	  "GRADE : " + grade + '<br>' +
 	  "RESULT :" + result;
