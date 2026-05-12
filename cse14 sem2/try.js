@@ -44,4 +44,10 @@ let num = localStorage.setItem("username");
 console.log(num);
 */
 
-
+<div class="container">
+    <div class="row">
+        <div class="col bg-warning p-3">column 1</div>
+        <div class="col bg-warning p-3">column 2</div>
+        <div class="col bg-warning p-3">column 3</div>
+    </div>
+   </div>
