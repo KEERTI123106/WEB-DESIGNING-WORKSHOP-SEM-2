@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import register from './assets/register';
+import Registration from './assets/Registration';
 
 function App() {
   const [name, setName] = useState('');
@@ -68,7 +68,11 @@ function App() {
         <button type="submit" className="btn">Register</button>
       </form>
 
-      {users.length > 0 && <register userArray={users} />}
+      {users.length > 0 && <Registration userArray={users} />}
+      <div className="footer-info" style={{ textAlign: 'center', marginTop: '20px' }}>
+        <h3>KEERTI SHARMA</h3>
+        <h4>Roll No.: 2503201000624 </h4>
+      </div>
     </div>
   );
 }
