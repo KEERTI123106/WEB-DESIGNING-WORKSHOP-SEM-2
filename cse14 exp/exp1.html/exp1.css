@@ -30,6 +30,11 @@ body {
     text-align: center;
 }
 
+.Intro {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
 h3 {
     margin-top: 10px;
     font-weight: bold;
@@ -38,7 +43,6 @@ h3 {
 .site-footer p {
     margin: 0;
 }
-
 @media (min-width: 768px) {
     .col-divider {
         border-right: 3px solid black;
