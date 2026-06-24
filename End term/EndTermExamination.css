@@ -1,0 +1,21 @@
+body{
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    display: flex;
+}
+
+.border{
+    background-color: aliceblue;
+    border: 1px solid black;
+    box-shadow: 0 5px 0 2px grey;
+    padding: 12px;
+    width:600px;
+    justify-content: center;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+}
